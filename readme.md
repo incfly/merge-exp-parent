@@ -18,4 +18,5 @@ See github.com/incfly/merge-exp-child
 - child:bad-tip, bad merge, `squash merge`, single commit, https://github.com/incfly/merge-exp-child/pull/2
 - add new commit here.
 - do git pull && merge in child again in above two branches, the bad-tip sees conflicts.
-
+  1. child:main, is able to consume new update, https://github.com/incfly/merge-exp-child/pull/4
+  1. child:bad-tip is not: https://github.com/incfly/merge-exp-child/pull/3
