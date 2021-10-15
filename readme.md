@@ -10,6 +10,12 @@ How to enable this:
 
 
 This is the upstream merge experiment, parent repo.
-
 See github.com/incfly/merge-exp-child
+
+## Experiment
+
+- child:main, good merge, `merge commit`, preserving the commit., https://github.com/incfly/merge-exp-child/pull/1
+- child:bad-tip, bad merge, `squash merge`, single commit, https://github.com/incfly/merge-exp-child/pull/2
+- add new commit here.
+- do git pull && merge in child again in above two branches, the bad-tip sees conflicts.
 
